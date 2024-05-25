@@ -1,4 +1,7 @@
-Here is a sample GitHub README.md file for the Real-Time Chat App with Redis Pub/Sub and Stream:
+# This project is currently under development 
+
+
+
 
 **Real-Time Chat App with Redis Pub/Sub and Stream**
 =====================================================
