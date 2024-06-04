@@ -26,9 +26,8 @@ This project is a real-time chat app that uses Redis Pub/Sub and Stream to enabl
 
 * Redis installed and running on your local machine or a cloud provider
 * Python 3.8 or higher installed on your local machine
-* `redis` and `hiredis` Python packages installed using `pip`
 
-### Running the App
+### Running the App (if completed)
 
 1. Clone the repository: `git clone https://github.com/PEMIDI/real-time-chat-app.git`
 2. Install the required packages: `pip install -r requirements.txt`
@@ -80,10 +79,9 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 **Acknowledgments**
 ---------------
 
-This project uses the following open-source libraries:
+This project uses the following open-source libraries, you can use any library to develop this app:
 
 * `redis`: a Python client for Redis
-* `hiredis`: a Python client for Redis that uses the Hiredis parser
 
 I hope this helps Let me know if you have any questions or need further assistance.
 
@@ -123,7 +121,6 @@ test_models.py
 * Install Redis on your local machine or use a cloud provider like Redis Labs.
 * Install the required Python packages, including:
 	+ `redis` for interacting with Redis.
-	+ `hiredis` for parsing Redis responses.
 	+ `pytest` for unit testing.
 * Create a `redis_config.py` file to store Redis connection settings, including:
 	+ `REDIS_HOST`: the hostname or IP address of the Redis instance.
@@ -335,6 +332,5 @@ Here is a design for a Terminal UI for the Real-Time Chat App with Redis Pub/Sub
 
 1. **Monospace font**: Consolas or Courier New
 
-This design provides a basic Terminal UI for the Real-Time Chat App with Redis Pub/Sub and Stream. You can modify and extend it to fit your specific requirements.
 
 ````
